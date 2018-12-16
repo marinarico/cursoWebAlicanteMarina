@@ -1,0 +1,62 @@
+.cabecera{
+    width: auto;
+    height: 300px;
+    margin-bottom: 30px;
+}
+#color{
+    background-color: aqua;
+}
+
+h1{
+    margin-top: 80px;
+}
+h2{
+    margin-bottom: 30px;
+}
+
+.imagenesdesarrollo{
+    width: auto;
+    height: 200px;
+    margin: 20px;
+}
+
+#textodesarrollo{
+    font-size: 15px;
+    text-align: justify;
+}
+
+#flechamargen{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.imagenesdesarrollogeometric{
+    width: auto;
+    height: 500px;
+    margin: 20px;
+}
+
+.cvmedida{
+    width: 500px;
+    height: 700px;
+    box-shadow: 0 0 3px 1px rgb(182, 172, 175);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.zoom{
+
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+    z-index: 999;
+
+}
+.zoom:hover{
+
+    transform : scale(2);
+    -moz-transform : scale(2);      /* Firefox */
+    -webkit-transform : scale(2);   /* Chrome - Safari */
+    -o-transform : scale(2);        /* Opera */
+    z-index: 999;
+}
